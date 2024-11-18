@@ -31,6 +31,7 @@ function addToArray() {
   if (input.value !== "") {
     theList.push(input.value);
     console.log(theList);
+    arrayToHTML();
     input.value = "";
   }
 }
